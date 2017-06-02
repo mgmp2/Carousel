@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner {
+    width: 80%;
+    height: 120px;
+    margin: 14px auto;
+    background: #e5e5e5;
+}
+#botones ul {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#botones > ul > li {
+    display: inline-block;
+}
+#botones [type="button"] {
+    border-color: #ab3636;
+    background: none;
+    color: #ab3636;
+    background: #ab3636;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+}
