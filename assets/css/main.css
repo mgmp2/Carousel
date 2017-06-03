@@ -1,12 +1,13 @@
-    * {
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+* {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'PT Serif', serif;
     }
     body {
         display: flex;
         min-height: 100vh;
-
     }
     h1 {
         text-align: center;
@@ -19,9 +20,7 @@
     }
     /*IMAGENES*/
     #box-carousel {
-        border: 1px solid black;
         position: relative;
-        background: #e5e5e5;
     }
     #box-carousel .carousel {
         width: 80%; 
@@ -50,6 +49,7 @@
         font-size: 28px;
         font-weight: bold;
         cursor: pointer;
+        transform: scaleX(0.7);
     }
     #btn-prev {
         left: 35px;
@@ -58,8 +58,8 @@
         right: 35px;
     }
     /*BOTONES*/
-    #botones ul {
-        width: 40%;
+   #botones ul { 
+        width: 30%;
         display: flex;
         justify-content: space-between;
         margin: 7px auto;
@@ -68,11 +68,21 @@
         display: inline-block;
     }
     #botones [type="button"] {
-        border-color: #ddc4c4;
+        border-color: #a9a9a9;
         background: none;
-        color: #b88484;
-        background: #ddc4c4;
+        color: #a9a9a9;
+        font-size: 1px;
+        background: #a9a9a9;
         border-radius: 50%;
         font-weight: 800;
-        width: 22px;
+        width: 14px;
+        height: 14px;
+        cursor: pointer;
     }
+    #botones [type="button"]:hover {
+        border-color: #000;
+        color: #000;
+        background: #000;
+
+    }
+
