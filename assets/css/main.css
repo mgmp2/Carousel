@@ -32,7 +32,6 @@
     }
     #carousel ul {
         display: flex;
-        width: 500%;
     }
     #carousel li {
         list-style: none;
@@ -87,3 +86,38 @@
     .color-circle {
         background: #000!important;
     }
+@media only screen and (max-width: 1025px) {
+    h1 {
+        font-size: 21px;
+    }
+    #box-carousel #carousel {
+    height: 252px;
+    }
+    #btn-prev, #btn-next {
+      top: 72%;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+  #box-carousel #carousel {
+    height: 140px;
+  }
+  #btn-prev, #btn-next {
+      top: 40%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 14px;
+    }
+    #banner {
+        width: 100%;
+    }
+    #box-carousel #carousel {
+      height: 91px;
+    }
+    #botones ul {
+        justify-content: center;
+    }
+}
